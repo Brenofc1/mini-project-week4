@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Guessing Game</title>
+    <style>
+      /* Style the page layout */
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* Style the word display */
+      .word {
+        font-size: 32px;
+        margin: 16px 0;
+      }
+
+      /* Style the reset button */
+      .reset-button {
+        border: none;
+        background-color: lightgray;
+        color: white;
+        font-size: 16px;
+        padding: 8px 16px;
+        margin-top: 16px;
+      }
+
+      /* Style the win and loss count display */
+      .win-loss {
+        margin-top: 16px;
+      }
+      .win-loss span {
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Display the word to guess -->
+    <div class="word">
+      <span id="displayed-word"></span>
+    </div>
+
+    <!-- Display the reset button -->
+    <button class="reset-button" id="reset-button">Reset</button>
+
+    <!-- Display the win and loss count -->
+    <div class="win-loss">
+      Wins: <span id="win-count"></span> Losses: <span id="loss-count"></span>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
