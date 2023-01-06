@@ -1,0 +1,22 @@
+/* Style the start button */
+#start-button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+  }
+  
+  /* Style the timer element */
+  #timer {
+    font-size: 20px;
+  }
+  
+  /* Style the win/loss counts */
+  #win-loss-counts {
+    font-size: 20px;
+  }
+  
+  /* Style the win/loss message */
+  #win-loss-message {
+    font-size: 20px;
+  }
