@@ -1,5 +1,21 @@
-/* Style the start button */
-#start-button {
+header {
+    width: 100%;
+    border: 2px solid red;
+    background-color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  section {
+    position: relative;
+    left: 50%;
+  }
+  
+  /* Style the start button */
+  #start-button {
     font-size: 20px;
     padding: 10px;
     background-color: green;

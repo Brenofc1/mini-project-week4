@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Word Guessing Game</title>
-    
+    <meta charset="UF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Word Guessing Game</title> 
   </head>
   <body>
+    <header>
+      <h1>Word Guessing Game</h1>
+    </header>
 <!-- The start button -->
-    <button id="start-button">Start</button>
+    <section>
+      <button id="start-button">Start</button>
 
-    <!-- The input field for guessing letters -->
-    <input type="text" id="guess-input" maxlength="1">
+      <!-- The input field for guessing letters -->
+      <input type="text" id="guess-input" maxlength="15">
 
-    <!-- The timer element -->
-    <div id="timer">30</div>
+      <!-- The timer element -->
+      <div id="timer">30</div>
 
-    <!-- The element to display the current word -->
-    <div id="current-word"></div>
+      <!-- The element to display the current word -->
+      <div id="current-word"></div>
 
-    <!-- The element to display the win/loss counts -->
-    <div id="win-loss-counts">
-      Wins: <span id="wins">0</span> Losses: <span id="losses">0</span>
-    </div>
+      <!-- The element to display the win/loss counts -->
+      <div id="win-loss-counts">
+        Wins: <span id="wins">0</span> Losses: <span id="losses">0</span>
+      </div>
+    </section>
 
     <!-- The element to display messages when the user wins or loses -->
     <div id="win-loss-message"></div>
+
+    <script src="script.js"></script>
   </body>
 </html>
